@@ -1,5 +1,8 @@
 # MyDalamudPlugins
 
+## New central repository
+To all those that used my plugin in the past, I have grouped my plugins together in a single repository. This means it is much easier for me to update the plugins, and much easier for you to find them, since you only need to add one repository to find all of my (currently 2) plugins! In order to install this new repository, follow the steps below in the Installation Guide.
+
 ## Warning!
 I created these plugins for personal use. I never truly intended these as public plugins, so don't _**expect**_ any help or assistance if something doesn't work. But since quite a few people have since found their way to my plugins somehow, I figured I might as well write a readme.
 
