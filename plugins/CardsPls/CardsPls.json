@@ -1,0 +1,20 @@
+{
+  "Author": "Youri",
+  "Name": "CardsPls",
+  "InternalName": "CardsPls",
+  "AssemblyVersion": "0.0.0.5",
+  "Description": "Easy overview about who is currently buffed by cards",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Card",
+    "Highlight",
+    "Interface"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Highlighting of card status effects.",
+  "Changelog": "Moved to new Repo\n-Fixed bug in new resolver syntax \n-Updated to Api Level 8",
+  "AcceptsFeedback": true
+}
