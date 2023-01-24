@@ -20,3 +20,6 @@ I created these plugins for personal use. I never truly intended these as public
 ## Migrating from the old XIVMoneyTracker
 * If you have used the old XIVMoneyTracker Repo, make sure to **remove** the line that says:
 `https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/repo.json`
+* After you do this, your plugin _may not automatically update_, to make sure it does:
+* Open Dalamud's plugin menu by typing `/xlplugins` in the chat window and pressing enter.
+* Look for the "Money Tracker" plugin, disable and uninstall version 4.*, and install version 5+
