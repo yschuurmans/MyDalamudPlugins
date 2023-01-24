@@ -1,7 +1,7 @@
 # MyDalamudPlugins
 
 ## Warning!
-I created these plugin for personal use. I never truly intended these as public plugins, so don't _**expect**_ any help or assistance if something doesn't work. But since quite a few people have since found their way to my plugins somehow, I figured I might as well write a readme.
+I created these plugins for personal use. I never truly intended these as public plugins, so don't _**expect**_ any help or assistance if something doesn't work. But since quite a few people have since found their way to my plugins somehow, I figured I might as well write a readme.
 
 ## Installation guide
 * **Be sure that "Enable in-game features" is on in the launcher settings to access in-game commands and features!**
