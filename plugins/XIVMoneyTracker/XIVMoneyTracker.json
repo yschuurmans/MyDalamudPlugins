@@ -15,7 +15,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/Icon.png",
   "Punchline": "For when you want to know how much you spend/earn in ffxiv!",
   "Changelog": "-Added an Icon to the plugin\n-Moved to new Repository! :D\n-Fixed bug in new resolver syntax \n-Updated to Api Level 8",
   "AcceptsFeedback": true
