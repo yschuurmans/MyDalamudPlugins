@@ -16,14 +16,14 @@
         ],
         "DalamudApiLevel": 8,
         "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/Icon.png",
+        "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/icon.png",
         "DownloadLinkInstall": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1674741206"
+        "LastUpdate": "1675021305"
     },
     {
         "Author": "Youri",
@@ -47,6 +47,6 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1674741206"
+        "LastUpdate": "1675021305"
     }
 ]
