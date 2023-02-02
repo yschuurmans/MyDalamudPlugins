@@ -3,7 +3,7 @@
   "Name": "CardsPls",
   "InternalName": "CardsPls",
   "AssemblyVersion": "0.1.0.2",
-  "Description": "Easy overview about who is currently buffed by cards",
+  "Description": "A tool to make it easier to track who has already got a card buff. To prevent you from accidentally double-buffing those sneaky DPS's trying to keep all the buffs to themselves!",
   "ApplicableVersion": "any",
   "Tags": [
     "Card",
@@ -20,6 +20,6 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
   "Punchline": "Highlighting of card status effects.",
-  "Changelog": "-Added in-world icons and text\n-Moved to new Repo\n-Fixed bug in new resolver syntax\n-Updated to Api Level 8",
+  "Changelog": "- Fixed 'Restrict to Astrologian'\n- Added in-world icons and text\n- Moved to new Repo",
   "AcceptsFeedback": true
 }
