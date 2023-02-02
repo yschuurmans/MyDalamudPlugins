@@ -23,7 +23,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675337440"
+        "LastUpdate": "1675339037"
     },
     {
         "Author": "Youri",
@@ -32,7 +32,7 @@
         "Description": "Easy overview about who is currently buffed by cards",
         "Changelog": "-Added in-world icons and text\n-Moved to new Repo\n-Fixed bug in new resolver syntax\n-Updated to Api Level 8",
         "InternalName": "CardsPls",
-        "AssemblyVersion": "0.1.0.1",
+        "AssemblyVersion": "0.1.0.2",
         "ApplicableVersion": "any",
         "Tags": [
             "Card",
@@ -42,12 +42,16 @@
         "DalamudApiLevel": 8,
         "LoadPriority": 0,
         "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
+        "ImageUrls": [
+            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image1.png",
+            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image2.png"
+        ],
         "DownloadLinkInstall": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675337440"
+        "LastUpdate": "1675339037"
     }
 ]
