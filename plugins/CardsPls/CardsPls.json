@@ -2,7 +2,7 @@
   "Author": "Youri",
   "Name": "CardsPls",
   "InternalName": "CardsPls",
-  "AssemblyVersion": "0.1.0.1",
+  "AssemblyVersion": "0.1.0.2",
   "Description": "Easy overview about who is currently buffed by cards",
   "ApplicableVersion": "any",
   "Tags": [
@@ -14,6 +14,10 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image1.png",
+    "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image2.png"
+  ],
   "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
   "Punchline": "Highlighting of card status effects.",
   "Changelog": "-Added in-world icons and text\n-Moved to new Repo\n-Fixed bug in new resolver syntax\n-Updated to Api Level 8",
