@@ -28,7 +28,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675348818"
+        "LastUpdate": "1676032805"
     },
     {
         "Author": "Youri",
@@ -38,6 +38,7 @@
         "Changelog": "- Fixed 'Restrict to Astrologian'\n- Added in-world icons and text\n- Moved to new Repo",
         "InternalName": "CardsPls",
         "AssemblyVersion": "0.1.1.0",
+        "RepoUrl": "https://github.com/yschuurmans/CardsPls",
         "ApplicableVersion": "any",
         "Tags": [
             "Card",
@@ -57,6 +58,6 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675348818"
+        "LastUpdate": "1676032805"
     }
 ]
