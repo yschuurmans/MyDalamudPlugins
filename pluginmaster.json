@@ -1,36 +1,6 @@
 [
     {
         "Author": "Youri",
-        "Name": "CardsPls",
-        "Punchline": "Highlighting of card status effects.",
-        "Description": "A tool to make it easier to track who has already got a card buff. To prevent you from accidentally double-buffing those sneaky DPS's trying to keep all the buffs to themselves!",
-        "Changelog": "- Fixed 'Restrict to Astrologian'\n- Added in-world icons and text\n- Moved to new Repo",
-        "InternalName": "CardsPls",
-        "AssemblyVersion": "0.1.1.0",
-        "RepoUrl": "https://github.com/yschuurmans/CardsPls",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "Card",
-            "Highlight",
-            "Interface"
-        ],
-        "DalamudApiLevel": 8,
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
-        "ImageUrls": [
-            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image1.png",
-            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image2.png"
-        ],
-        "DownloadLinkInstall": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1683536762"
-    },
-    {
-        "Author": "Youri",
         "Name": "FFXIV Money Tracker",
         "Punchline": "For when you want to know how much you spend/earn in ffxiv!",
         "Description": "For when you want to know how much you spend/earn in ffxiv!",
@@ -58,6 +28,36 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1683536762"
+        "LastUpdate": "1696412314"
+    },
+    {
+        "Author": "Youri",
+        "Name": "CardsPls",
+        "Punchline": "Highlighting of card status effects.",
+        "Description": "A tool to make it easier to track who has already got a card buff. To prevent you from accidentally double-buffing those sneaky DPS's trying to keep all the buffs to themselves!",
+        "Changelog": "- Fixed 'Restrict to Astrologian'\n- Added in-world icons and text\n- Moved to new Repo",
+        "InternalName": "CardsPls",
+        "AssemblyVersion": "0.1.1.0",
+        "RepoUrl": "https://github.com/yschuurmans/CardsPls",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "Card",
+            "Highlight",
+            "Interface"
+        ],
+        "DalamudApiLevel": 8,
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
+        "ImageUrls": [
+            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image1.png",
+            "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/images/image2.png"
+        ],
+        "DownloadLinkInstall": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1696412314"
     }
 ]
