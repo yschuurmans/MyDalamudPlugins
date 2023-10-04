@@ -3,8 +3,6 @@
 ## New central repository
 To all those that used my plugin in the past, I have grouped my plugins together in a single repository. This means it is much easier for me to update the plugins, and much easier for you to find them, since you only need to add one repository to find all of my (currently 2) plugins! In order to install this new repository, follow the steps below in the Installation Guide.
 
-### Don't worry, updating will **not** clear your data! Your money tracking needs are perfectly preserved over this update :D
-
 &nbsp;
 &nbsp;
 
