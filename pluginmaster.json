@@ -6,7 +6,7 @@
         "Description": "For when you want to know how much you spend/earn in ffxiv!",
         "Changelog": "-Added an Icon to the plugin\n-Moved to new Repository! :D\n-Fixed bug in new resolver syntax \n-Updated to Api Level 8",
         "InternalName": "XIVMoneyTracker",
-        "AssemblyVersion": "0.0.5.4",
+        "AssemblyVersion": "0.0.6.0",
         "RepoUrl": "https://github.com/yschuurmans/FFXIVMoneyTracker",
         "ApplicableVersion": "any",
         "Tags": [
@@ -14,7 +14,7 @@
             "plugin",
             "tracker"
         ],
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "LoadPriority": 0,
         "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/icon.png",
         "ImageUrls": [
@@ -28,7 +28,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1696513539"
+        "LastUpdate": "1696513582"
     },
     {
         "Author": "Youri",
@@ -58,6 +58,6 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1696513539"
+        "LastUpdate": "1696513582"
     }
 ]
