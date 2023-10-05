@@ -28,7 +28,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1696412314"
+        "LastUpdate": "1696513539"
     },
     {
         "Author": "Youri",
@@ -37,7 +37,7 @@
         "Description": "A tool to make it easier to track who has already got a card buff. To prevent you from accidentally double-buffing those sneaky DPS's trying to keep all the buffs to themselves!",
         "Changelog": "- Fixed 'Restrict to Astrologian'\n- Added in-world icons and text\n- Moved to new Repo",
         "InternalName": "CardsPls",
-        "AssemblyVersion": "0.1.1.0",
+        "AssemblyVersion": "0.1.3.0",
         "RepoUrl": "https://github.com/yschuurmans/CardsPls",
         "ApplicableVersion": "any",
         "Tags": [
@@ -45,7 +45,7 @@
             "Highlight",
             "Interface"
         ],
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "LoadPriority": 0,
         "IconUrl": "https://raw.githubusercontent.com/yschuurmans/CardsPls/master/res/icon.png",
         "ImageUrls": [
@@ -58,6 +58,6 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1696412314"
+        "LastUpdate": "1696513539"
     }
 ]
