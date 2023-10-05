@@ -2,7 +2,7 @@
   "Author": "Youri",
   "Name": "FFXIV Money Tracker",
   "InternalName": "XIVMoneyTracker",
-  "AssemblyVersion": "0.0.5.4",
+  "AssemblyVersion": "0.0.6.0",
   "Description": "For when you want to know how much you spend/earn in ffxiv!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/yschuurmans/FFXIVMoneyTracker",
@@ -11,9 +11,10 @@
     "plugin",
     "tracker"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/images/image1.png",
