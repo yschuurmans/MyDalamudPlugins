@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "XIVMoneyTracker/0.0.9.1": {
+      "XIVMoneyTracker/0.0.9.2": {
         "runtime": {
           "XIVMoneyTracker.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "XIVMoneyTracker/0.0.9.1": {
+    "XIVMoneyTracker/0.0.9.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
