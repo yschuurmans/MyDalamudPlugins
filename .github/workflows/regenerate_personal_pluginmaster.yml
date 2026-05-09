@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Rebase onto latest remote branch
+        run: git pull --rebase origin "$(git branch --show-current)"
       - uses: actions/setup-python@v2
         with:
           python-version: '3.8'
