@@ -5,6 +5,11 @@ on:
     branches:
     - master
     - api4
+    paths-ignore:
+    - personalpluginmaster.json
+    - personalpluginmaster.sources.json
+    - generate_personal_pluginmaster.py
+    - .github/workflows/regenerate_personal_pluginmaster.yml
 concurrency: regenerate
 jobs:
   generate:
