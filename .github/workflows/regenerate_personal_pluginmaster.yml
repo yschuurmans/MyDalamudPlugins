@@ -1,0 +1,38 @@
+name: Regenerate Personal PluginMaster
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches:
+      - master
+      - api4
+    paths:
+      - pluginmaster.json
+      - personalpluginmaster.sources.json
+      - generate_personal_pluginmaster.py
+      - .github/workflows/regenerate_personal_pluginmaster.yml
+concurrency: regenerate-personal
+jobs:
+  generate:
+    name: Regenerate Personal PluginMaster
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Generate Personal PluginMaster
+        run: python generate_personal_pluginmaster.py
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      - uses: EndBug/add-and-commit@v9
+        if: steps.changes.outputs.has_changes == 'true'
+        with:
+          message: Regenerate Personal PluginMaster [skip ci]

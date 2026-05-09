@@ -1,0 +1,10 @@
+{
+    "sources": [
+        {
+            "repository_url": "https://puni.sh/api/plugins",
+            "plugin_names": [
+                "Marketbuddy"
+            ]
+        }
+    ]
+}
