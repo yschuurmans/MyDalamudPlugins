@@ -28,7 +28,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778351824"
+        "LastUpdate": "1778351972"
     },
     {
         "Author": "Youri",
@@ -58,7 +58,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778351824"
+        "LastUpdate": "1778351972"
     },
     {
         "Author": "Chalkos, NightmareXIV",
@@ -70,7 +70,7 @@
         ],
         "InternalName": "Marketbuddy",
         "RepoUrl": null,
-        "DownloadCount": 4254,
+        "DownloadCount": 4398,
         "LastUpdate": 1777575334,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
