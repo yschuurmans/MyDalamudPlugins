@@ -3,12 +3,19 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'
+  workflow_run:
+    workflows:
+      - Regenerate PluginMaster
+    types:
+      - completed
+    branches:
+      - master
+      - api4
   push:
     branches:
       - master
       - api4
     paths:
-      - pluginmaster.json
       - personalpluginmaster.sources.json
       - generate_personal_pluginmaster.py
       - .github/workflows/regenerate_personal_pluginmaster.yml
@@ -16,6 +23,7 @@ concurrency: regenerate-personal
 jobs:
   generate:
     name: Regenerate Personal PluginMaster
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
