@@ -1,5 +1,6 @@
 import json
 import os
+from itertools import zip_longest
 from time import time
 from sys import argv
 from os.path import getmtime
@@ -35,6 +36,31 @@ TRIMMED_KEYS = [
     'ImageUrls',
 ]
 
+
+def parse_version(version):
+    if version is None:
+        return ()
+
+    parts = []
+    for part in str(version).split('.'):
+        try:
+            parts.append(int(part))
+        except ValueError:
+            parts.append(part)
+    return tuple(parts)
+
+
+def is_newer_plugin(candidate, existing):
+    candidate_version = parse_version(candidate.get('AssemblyVersion'))
+    existing_version = parse_version(existing.get('AssemblyVersion'))
+
+    for candidate_part, existing_part in zip_longest(candidate_version, existing_version, fillvalue=0):
+        if candidate_part == existing_part:
+            continue
+        return candidate_part > existing_part
+
+    return False
+
 def main():
     # extract the manifests from inside the zip files
     master = extract_manifests()
@@ -52,18 +78,21 @@ def main():
     last_updated()
 
 def extract_manifests():
-    manifests = []
+    manifests = {}
 
     for dirpath, dirnames, filenames in os.walk('./plugins'):
         if len(filenames) == 0 or 'latest.zip' not in filenames:
             continue
-        plugin_name = dirpath.split('/')[-1]
-        latest_zip = f'{dirpath}/latest.zip'
+        plugin_name = os.path.basename(os.path.normpath(dirpath))
+        latest_zip = os.path.join(dirpath, 'latest.zip')
         with ZipFile(latest_zip) as z:
             manifest = json.loads(z.read(f'{plugin_name}.json').decode('utf-8'))
-            manifests.append(manifest)
+            manifest_key = manifest.get('InternalName') or manifest.get('Name')
+            existing_manifest = manifests.get(manifest_key)
+            if existing_manifest is None or is_newer_plugin(manifest, existing_manifest):
+                manifests[manifest_key] = manifest
 
-    return manifests
+    return list(manifests.values())
 
 def add_extra_fields(manifests):
     for manifest in manifests:

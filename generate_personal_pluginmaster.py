@@ -20,6 +20,12 @@ def save_json(path, data):
         file.write('\n')
 
 
+def load_existing_output(path):
+    if not path.exists():
+        return []
+    return load_json(path)
+
+
 def load_manifest(source):
     repository_url = source['repository_url']
     if repository_url.startswith('http://') or repository_url.startswith('https://'):
@@ -37,9 +43,34 @@ def matches_requested_plugin(plugin, requested_names):
     return plugin.get('Name') in requested_names or plugin.get('InternalName') in requested_names
 
 
-def merge_external_plugins(base_master, sources):
-    merged = list(base_master)
-    seen_keys = {plugin.get('InternalName') or plugin.get('Name') for plugin in merged}
+def get_plugin_key(plugin):
+    return plugin.get('InternalName') or plugin.get('Name')
+
+
+def should_replace_plugin(existing_plugin, incoming_plugin):
+    if existing_plugin is None:
+        return True
+
+    return existing_plugin.get('AssemblyVersion') != incoming_plugin.get('AssemblyVersion')
+
+
+def merge_plugin(merged, indexes_by_key, plugin):
+    plugin_key = get_plugin_key(plugin)
+    if plugin_key in indexes_by_key:
+        merged[indexes_by_key[plugin_key]] = plugin
+        return
+
+    indexes_by_key[plugin_key] = len(merged)
+    merged.append(plugin)
+
+
+def merge_external_plugins(base_master, sources, existing_output):
+    merged = []
+    indexes_by_key = {}
+    existing_plugins = {get_plugin_key(plugin): plugin for plugin in existing_output}
+
+    for plugin in base_master:
+        merge_plugin(merged, indexes_by_key, plugin)
 
     for source in sources:
         manifest = load_manifest(source)
@@ -49,12 +80,10 @@ def merge_external_plugins(base_master, sources):
             if not matches_requested_plugin(plugin, requested_names):
                 continue
 
-            plugin_key = plugin.get('InternalName') or plugin.get('Name')
-            if plugin_key in seen_keys:
-                continue
-
-            merged.append(plugin)
-            seen_keys.add(plugin_key)
+            plugin_key = get_plugin_key(plugin)
+            existing_plugin = existing_plugins.get(plugin_key)
+            selected_plugin = plugin if should_replace_plugin(existing_plugin, plugin) else existing_plugin
+            merge_plugin(merged, indexes_by_key, selected_plugin)
 
     return merged
 
@@ -62,7 +91,8 @@ def merge_external_plugins(base_master, sources):
 def main():
     base_master = load_json(BASE_MASTER_PATH)
     sources_config = load_json(SOURCES_PATH)
-    merged_master = merge_external_plugins(base_master, sources_config['sources'])
+    existing_output = load_existing_output(OUTPUT_PATH)
+    merged_master = merge_external_plugins(base_master, sources_config['sources'], existing_output)
     save_json(OUTPUT_PATH, merged_master)
 
 
