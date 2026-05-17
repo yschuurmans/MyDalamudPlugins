@@ -6,7 +6,7 @@
         "Description": "For when you want to know how much you spend/earn in ffxiv!",
         "Changelog": "- Sorry for letting this plugin gather dust. I have fixed the graph functionality now.\r\n-Updated to API15 \r\n- Forced to disable the graph for now, I will revise this in a future update.",
         "InternalName": "XIVMoneyTracker",
-        "AssemblyVersion": "0.0.9.2",
+        "AssemblyVersion": "0.0.10.0",
         "RepoUrl": "https://github.com/yschuurmans/FFXIVMoneyTracker",
         "ApplicableVersion": "any",
         "Tags": [
@@ -28,7 +28,7 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/XIVMoneyTracker/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1779057753"
+        "LastUpdate": "1779057845"
     },
     {
         "Author": "Youri",
@@ -58,6 +58,6 @@
         "DownloadLinkTesting": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadLinkUpdate": "https://github.com/yschuurmans/MyDalamudPlugins/raw/master/plugins/CardsPls/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1779057753"
+        "LastUpdate": "1779057845"
     }
 ]
