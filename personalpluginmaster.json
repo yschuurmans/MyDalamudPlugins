@@ -70,13 +70,14 @@
         ],
         "InternalName": "Marketbuddy",
         "RepoUrl": null,
-        "DownloadCount": 5952,
+        "DownloadCount": 6225,
         "LastUpdate": 1777575334,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
         "AssemblyVersion": "0.2.4.2",
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
-        "Changelog": "- 7.5"
+        "Changelog": "- 7.5",
+        "IconUrl": "https://s3.puni.sh/media/plugin/131/icon-qzhqz1nooi.png"
     }
 ]
