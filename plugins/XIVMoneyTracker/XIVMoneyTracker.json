@@ -23,6 +23,6 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/yschuurmans/FFXIVMoneyTracker/master/res/icon.png",
   "Punchline": "For when you want to know how much you spend/earn in ffxiv!",
-  "Changelog": "-Updated to API15 \r\n- Forced to disable the graph for now, I will revise this in a future update.",
+  "Changelog": "- Sorry for letting this plugin gather dust. I have fixed the graph functionality now.\r\n-Updated to API15 \r\n- Forced to disable the graph for now, I will revise this in a future update.",
   "AcceptsFeedback": true
 }
